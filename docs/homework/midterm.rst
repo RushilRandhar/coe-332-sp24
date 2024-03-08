@@ -22,9 +22,9 @@ PART 1
 
 For the Midterm Project, start a brand new git repository. Copy over the files
 that you have been working on from Homework 05. Your current iteration of
-``iss_tracker.py`` should have seven functional Flask routes as described in
+``iss_tracker.py`` should have five functional Flask routes as described in
 `Homework 05 <./homework05.html>`_. For this project, keep the existing
-routes and add the following new routes:
+routes and add the following new routes (make sure to replace the previous ``/now`` route):
 
 * A ``/comment`` route that returns the 'comment' list object from the ISS data
 * A ``/header`` route that returns the 'header' dictionary object from the ISS data
