@@ -33,10 +33,10 @@ routes and add the following new routes:
   geoposition for a given ``<epoch>``. Math required! See slack for hints on this. We
   will also be using the `Python GeoPy <https://geopy.readthedocs.io/en/stable/#>`_
   library for determining geoposition given a latitude and longitude.
-* A ``/now`` route that returns the same information as the 'location' route above, but
+* A ``/now`` route that returns the same information as the 'location' route above along with instantaneous speed, but
   for the up-to-date, real time position of the ISS. You will need to iterate over all
   Epochs in the data set and figure out which one is closest to the current time, then
-  return location information for that Epcoh. You can confirm whether it is working by
+  return location information for that Epoch. You can confirm whether it is working by
   comparing it to the longitude and latitude of the ISS in real time using an
   `online tracker <https://www.n2yo.com/?s=90027>`_.
 
